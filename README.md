@@ -55,5 +55,13 @@ You can also import `Binoy_Anil_Resume.tex` directly into [Overleaf](https://www
 
 ---
 
+## 🎨 Customization Tips
+
+1. **Colors**: Modify the primary accent color by updating `\definecolor{accent}{HTML}{1a4fa0}` in `Binoy_Anil_Resume.tex`.
+2. **Sections**: Add or reorder sections using the custom `\begin{resumeEntry}` environment.
+3. **Margins**: Adjust document margins via `\usepackage[margin=...]{geometry}`.
+
+---
+
 ## 📄 License
 Source code is available under the [MIT License](LICENSE) (or open for personal adaptation).
