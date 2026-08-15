@@ -20,6 +20,8 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 ```text
 ├── Binoy_Anil_Resume.tex   # Master LaTeX source document
 ├── resume.pdf              # Compiled output PDF
+├── compile.sh              # Build and clean script
+├── .gitignore              # Ignores LaTeX build cache
 └── README.md               # Documentation and build instructions
 ```
 
@@ -27,14 +29,16 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 
 ## 🛠️ Compilation Instructions
 
-### Prerequisites
-You will need a TeX distribution installed on your system:
-- **macOS**: [MacTeX](https://www.tug.org/mactex/) or BasicTeX (`brew install --cask basictex`)
-- **Ubuntu/Debian**: `sudo apt-get install texlive-latex-extra`
-- **Windows**: [MiKTeX](https://miktex.org/) or [TeX Live](https://www.tug.org/texlive/)
+### Automated Script
+Run the included build script to compile and update `resume.pdf`:
 
-### Build via Command Line
-Run `pdflatex` to compile the document into PDF format:
+```bash
+chmod +x compile.sh
+./compile.sh
+```
+
+### Manual Compilation
+Alternatively, run `pdflatex` or `latexmk`:
 
 ```bash
 pdflatex Binoy_Anil_Resume.tex
