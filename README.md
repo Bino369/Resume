@@ -85,6 +85,8 @@ latexmk -pdf Binoy_Anil_Resume.tex
 Or using `pdflatex`:
 
 ```bash
+# Run twice to resolve hyperref references and page numbers
+pdflatex -interaction=nonstopmode Binoy_Anil_Resume.tex
 pdflatex -interaction=nonstopmode Binoy_Anil_Resume.tex
 ```
 
