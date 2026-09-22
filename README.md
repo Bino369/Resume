@@ -91,6 +91,8 @@ The template utilizes custom geometry to maximize printable area while preservin
 \usepackage[margin=0.5in,top=0.4in,bottom=0.4in]{geometry}
 ```
 
+> **Tip:** If content overflows to page 2, tweak `\vspace{3.5pt}` in `\resumeEntry` or reduce item spacing `itemsep=0pt`.
+
 ---
 
 ## 📁 Repository Structure
