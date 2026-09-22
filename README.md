@@ -80,7 +80,11 @@ tectonic Binoy_Anil_Resume.tex
 Using `latexmk`:
 
 ```bash
+# Standard single compilation
 latexmk -pdf Binoy_Anil_Resume.tex
+
+# Continuous compilation (auto-recompiles on file save)
+latexmk -pvc -pdf Binoy_Anil_Resume.tex
 ```
 
 Or using `pdflatex`:
