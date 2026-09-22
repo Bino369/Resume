@@ -22,6 +22,14 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 
 ## 🚀 Featured Projects
 
+| Project | Tech Stack | Domain |
+|---|---|---|
+| **EcoIdentify-AI** | PyTorch, EfficientNetV2, FastAPI, React | Computer Vision & ML |
+| **Live-Emotion-Detection** | CNN, FER2013, FastAPI, React | Deep Learning & Affective Computing |
+| **MirrorShare** | C++20, Qt6, RTSP/RTP, Networking | Systems & Media Streaming |
+| **BCA Attendance Tracker** | TypeScript, React, Node.js, MongoDB | Full-Stack Web |
+
+
 - **[EcoIdentify-AI](https://github.com/Bino369/EcoIdentify-AI)** – Real-time waste classification web app using PyTorch, EfficientNetV2, and Computer Vision.
 - **[Live-Emotion-Detection](https://github.com/Bino369/Live-Emotion-Detection)** – Real-time facial emotion recognition using a CNN trained on FER2013, FastAPI backend, and React frontend.
 - **[MirrorShare](https://github.com/Bino369/MirrorShare)** – Native Windows AirPlay receiver for screen mirroring and audio streaming built with C++20 and Qt6.
