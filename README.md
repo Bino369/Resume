@@ -56,6 +56,13 @@ Encapsulates section items with standard spacing and bullet alignment:
 \end{resumeEntry}
 ```
 
+### `\ghrepo` Macro
+Generates formatted, clickable GitHub project links:
+```latex
+\newcommand{\ghuser}{Bino369}
+\newcommand{\ghrepo}[1]{\href{https://github.com/\ghuser/#1}{github.com/\ghuser/#1}}
+```
+
 ---
 
 ## 🎨 Color Palette & Styling
