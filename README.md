@@ -10,11 +10,13 @@ LaTeX source code and PDF distribution for **Binoy Anil's** professional resume.
 
 This repository contains the single-page, ATS-friendly LaTeX template and compiled PDF for Binoy Anil's resume. It is designed for maximum clarity, consistent typography, and seamless automated parsing.
 
-- **Candidate**: Binoy Anil (Software Engineer | Full-Stack, ML & Systems)
-- **Email**: [binoyanil85@gmail.com](mailto:binoyanil85@gmail.com)
-- **Portfolio**: [binofolio.vercel.app](https://binofolio.vercel.app)
-- **LinkedIn**: [linkedin.com/in/binoy-anil-641474230](https://linkedin.com/in/binoy-anil-641474230)
-- **GitHub**: [github.com/bino369](https://github.com/bino369)
+| Detail | Information |
+|---|---|
+| **Candidate** | Binoy Anil (Software Engineer \| Full-Stack, ML & Systems) |
+| **Email** | [binoyanil85@gmail.com](mailto:binoyanil85@gmail.com) |
+| **Portfolio** | [binofolio.vercel.app](https://binofolio.vercel.app) |
+| **LinkedIn** | [linkedin.com/in/binoy-anil-641474230](https://linkedin.com/in/binoy-anil-641474230) |
+| **GitHub** | [github.com/bino369](https://github.com/bino369) |
 
 ---
 
