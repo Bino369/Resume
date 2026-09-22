@@ -43,6 +43,14 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 
 ---
 
+## 🎨 Color Palette & Styling
+
+The template features a restrained 2-color palette:
+- `accent` (`#1a4fa0`): Professional deep blue for section headings and hyperlinks.
+- `darkgray` (`#333333`): Charcoal tone for high-contrast header typography.
+
+---
+
 ## 📁 Repository Structure
 
 ```text
