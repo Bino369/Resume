@@ -95,8 +95,12 @@ pdflatex -interaction=nonstopmode Binoy_Anil_Resume.tex
 pdflatex -interaction=nonstopmode Binoy_Anil_Resume.tex
 ```
 
-### Overleaf / Cloud
-You can also import `Binoy_Anil_Resume.tex` directly into [Overleaf](https://www.overleaf.com/) and compile using the default `pdfLaTeX` or `XeLaTeX` engine.
+### Overleaf / Cloud Setup
+1. Log into [Overleaf](https://www.overleaf.com/).
+2. Create a **New Project** -> **Blank Project**.
+3. Paste the contents of `Binoy_Anil_Resume.tex`.
+4. Set Compiler to **pdfLaTeX** or **XeLaTeX** in Menu -> Settings.
+5. Click **Recompile** to preview and download.
 
 ---
 
