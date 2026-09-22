@@ -6,6 +6,18 @@ LaTeX source code and PDF distribution for **Binoy Anil's** professional resume.
 
 ---
 
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Featured Projects](#-featured-projects)
+- [Prerequisites](#️-prerequisites)
+- [Compilation Instructions](#️-compilation-instructions)
+- [LaTeX Macro Reference](#-latex-macro-reference)
+- [Pre-Submission Checklist](#-pre-submission-checklist)
+- [License](#-license)
+
+---
+
 ## 📌 Overview
 
 ### 🤖 ATS Optimization Highlights
