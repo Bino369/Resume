@@ -63,6 +63,9 @@ Generates formatted, clickable GitHub project links:
 \newcommand{\ghrepo}[1]{\href{https://github.com/\ghuser/#1}{github.com/\ghuser/#1}}
 ```
 
+### Customizing Education & Certifications
+Update institution names, dates, degree titles, and certificate verification IDs. Keep descriptions concise to maintain vertical balance.
+
 ### Adding a New Project Entry
 1. Copy a `\begin{resumeEntry} ... \end{resumeEntry}` block inside `\section*{Projects}`.
 2. Set project name, technologies used, and GitHub repository slug.
