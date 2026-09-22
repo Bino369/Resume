@@ -218,5 +218,11 @@ A: Modify `\definecolor{accent}{HTML}{1a4fa0}` with any desired HEX code.
 
 ---
 
+## 🤝 Contributing
+
+Contributions and improvements are welcome! Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for workflow details and code style guidelines.
+
+---
+
 ## 📄 License
 Source code is available under the [MIT License](LICENSE) (or open for personal adaptation).
