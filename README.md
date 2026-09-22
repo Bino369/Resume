@@ -8,6 +8,12 @@ LaTeX source code and PDF distribution for **Binoy Anil's** professional resume.
 
 ## 📌 Overview
 
+### 🤖 ATS Optimization Highlights
+- **Standard Single-Column Flow**: Avoids complex multi-column frames that break text extraction.
+- **Universal Glyphs**: Standard Latin font encoding guarantees legible OCR and text-layer indexing.
+- **Direct Hyperlinks**: Employs clean `hyperref` targets without obscure tracking redirects.
+
+
 This repository contains the single-page, ATS-friendly LaTeX template and compiled PDF for Binoy Anil's resume. It is designed for maximum clarity, consistent typography, and seamless automated parsing.
 
 | Detail | Information |
