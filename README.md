@@ -8,11 +8,20 @@ LaTeX source code and PDF distribution for **Binoy Anil's** professional resume.
 
 This repository contains the single-page, ATS-friendly LaTeX template and compiled PDF for Binoy Anil's resume. It is designed for maximum clarity, consistent typography, and seamless automated parsing.
 
-- **Candidate**: Binoy Anil (BCA Student, Developer)
+- **Candidate**: Binoy Anil (Software Engineer | Full-Stack, ML & Systems)
 - **Email**: [binoyanil85@gmail.com](mailto:binoyanil85@gmail.com)
 - **Portfolio**: [binofolio.vercel.app](https://binofolio.vercel.app)
 - **LinkedIn**: [linkedin.com/in/binoy-anil-641474230](https://linkedin.com/in/binoy-anil-641474230)
 - **GitHub**: [github.com/bino369](https://github.com/bino369)
+
+---
+
+## 🚀 Featured Projects
+
+- **[EcoIdentify-AI](https://github.com/Bino369/EcoIdentify-AI)** – Real-time waste classification web app using PyTorch, EfficientNetV2, and Computer Vision.
+- **[Live-Emotion-Detection](https://github.com/Bino369/Live-Emotion-Detection)** – Real-time facial emotion recognition using a CNN trained on FER2013, FastAPI backend, and React frontend.
+- **[MirrorShare](https://github.com/Bino369/MirrorShare)** – Native Windows AirPlay receiver for screen mirroring and audio streaming built with C++20 and Qt6.
+- **[BCA Attendance Tracker](https://github.com/Bino369/bca-attendance-tracker)** – Full-stack attendance tracking platform built with TypeScript React/Vite, Node/Express, and MongoDB.
 
 ---
 
@@ -21,7 +30,7 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 ```text
 ├── Binoy_Anil_Resume.tex   # Master LaTeX source document
 ├── resume.pdf              # Compiled output PDF
-├── compile.sh              # Build and clean script
+├── compile.sh              # Build and clean script (supports latexmk, pdflatex, tectonic)
 ├── .gitignore              # Ignores LaTeX build cache
 └── README.md               # Documentation and build instructions
 ```
@@ -39,20 +48,26 @@ chmod +x compile.sh
 ```
 
 ### Manual Compilation
-Alternatively, run `pdflatex` or `latexmk`:
+Using `tectonic` (self-contained modern LaTeX engine):
 
 ```bash
-pdflatex Binoy_Anil_Resume.tex
+tectonic Binoy_Anil_Resume.tex
 ```
 
-Or using `latexmk` for automated dependency resolution:
+Using `latexmk`:
 
 ```bash
 latexmk -pdf Binoy_Anil_Resume.tex
 ```
 
+Or using `pdflatex`:
+
+```bash
+pdflatex -interaction=nonstopmode Binoy_Anil_Resume.tex
+```
+
 ### Overleaf / Cloud
-You can also import `Binoy_Anil_Resume.tex` directly into [Overleaf](https://www.overleaf.com/) and compile using the default `pdfLaTeX` engine.
+You can also import `Binoy_Anil_Resume.tex` directly into [Overleaf](https://www.overleaf.com/) and compile using the default `pdfLaTeX` or `XeLaTeX` engine.
 
 ---
 

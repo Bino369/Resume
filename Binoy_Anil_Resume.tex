@@ -1,6 +1,6 @@
-\documentclass[10.5pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 
-\usepackage[margin=0.55in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage[margin=0.5in,top=0.4in,bottom=0.4in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
@@ -11,24 +11,24 @@
 \definecolor{darkgray}{HTML}{333333}
 
 \pagestyle{empty}
-\titleformat{\section}{\normalsize\bfseries\color{accent}}{}{0em}{}[\vspace{2pt}\color{accent}\hrule height 0.8pt\vspace{4pt}]
-\titlespacing{\section}{0pt}{8pt}{0pt}
+\titleformat{\section}{\normalsize\bfseries\color{accent}}{}{0em}{}[\vspace{2pt}\color{accent}\hrule height 0.8pt\vspace{3pt}]
+\titlespacing{\section}{0pt}{6pt}{0pt}
 
-\setlist[itemize]{label=--, leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt}
+\setlist[itemize]{label=--, leftmargin=*, itemsep=0.5pt, topsep=0pt, parsep=0pt}
 \setlength{\parskip}{0pt}
 
 \hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
 
 \newcommand{\resumeSubheading}[4]{
-  \textbf{#1} \hfill #2 \\
-  \textit{#3} \hfill \textit{#4} \\[2pt]
+  \textbf{#1}\ifx&#2&\else\hfill #2\fi \\
+  \textit{#3}\ifx&#4&\else\hfill \textit{#4}\fi \\[1.5pt]
 }
 
 \newenvironment{resumeEntry}[4]{
   \resumeSubheading{#1}{#2}{#3}{#4}
   \begin{itemize}
 }{
-  \end{itemize}\vspace{5pt}
+  \end{itemize}\vspace{3.5pt}
 }
 
 \newcommand{\ghuser}{Bino369}
@@ -38,7 +38,7 @@
 
 \begin{center}
     {\huge\textbf{\color{darkgray}BINOY ANIL}} \\[2pt]
-    {\large\color{accent}BCA Student} \\[3pt]
+    {\large\color{accent}Software Engineer \quad $\vert$ \quad Full-Stack, ML \& Systems} \\[3pt]
     \small
     \href{https://linkedin.com/in/binoy-anil-641474230}{linkedin.com/in/binoy-anil-641474230} \quad $\vert$ \quad
     \href{https://github.com/bino369}{github.com/bino369} \quad $\vert$ \quad
@@ -46,54 +46,60 @@
 \end{center}
 
 \section*{Summary}
-Motivated BCA 2nd Year student with foundational knowledge in web technologies, Java programming, and computer science concepts. Passionate about building responsive web applications and developing problem-solving skills through hands-on projects. Eager to grow as a developer and contribute to real-world software solutions.
+Versatile Software Engineer with hands-on expertise spanning full-stack web development, machine learning, and systems programming. Proven track record of building production-grade software---from deep learning computer vision pipelines and real-time AirPlay media receivers to scalable full-stack web platforms. Passionate about engineering high-performance systems and solving complex technical challenges.
 
 \section*{Education}
 \begin{resumeEntry}
   {Bachelor of Computer Applications (BCA)}{2023 -- Present}
-  {St. Berchmans College Autonomous, Changanacherry}{2nd Year}
-  \item Building strong foundations in programming, web development, and computer science.
-  \item Hands-on coursework in Data Structures, DBMS, Operating Systems, and Cybersecurity.
+  {St. Berchmans College Autonomous, Changanacherry}{Coursework \& CS Foundations}
+  \item Coursework: Data Structures \& Algorithms, Object-Oriented Programming (Java), DBMS, Operating Systems, Computer Networks.
+  \item Actively applying academic computer science theory to open-source software engineering and real-world system design.
 \end{resumeEntry}
 
 \section*{Projects}
 
 \begin{resumeEntry}
-  {Disease Prediction using Machine Learning}{}
-  {Python}{\ghrepo{Disease-predicts-using-ml}}
-  \item Built an ML system that predicts disease based on user-input symptoms.
-  \item Used three different machine learning algorithms and compared results for higher prediction accuracy.
+  {EcoIdentify-AI}{}
+  {PyTorch, EfficientNetV2, FastAPI, React}{\ghrepo{EcoIdentify-AI}}
+  \item Built an end-to-end waste classification web application using PyTorch and EfficientNetV2, achieving high multi-class inference accuracy.
+  \item Implemented real-time image preprocessing and inference pipeline with FastAPI backend and responsive React frontend for live webcam classification.
 \end{resumeEntry}
 
 \begin{resumeEntry}
-  {Lyrics Sync Visualizer}{}
-  {HTML, CSS, JavaScript}{\ghrepo{lyrics-sync-visualizer}}
-  \item Developed a premium, Apple Music-style karaoke lyrics visualizer using vanilla HTML, CSS, and JavaScript.
-  \item Implemented interactive, time-synced lyric animations with a polished, responsive UI.
+  {Live-Emotion-Detection}{}
+  {Python, CNN, FER2013, FastAPI, React}{\ghrepo{Live-Emotion-Detection}}
+  \item Developed a real-time facial emotion recognition system using a CNN trained on the FER2013 dataset, achieving low-latency affect classification.
+  \item Engineered a lightweight FastAPI streaming API integrated with a React UI for 30+ FPS live webcam feed analysis and instant sentiment visualization.
+\end{resumeEntry}
+
+\begin{resumeEntry}
+  {MirrorShare}{}
+  {C++20, Qt6, RTSP/RTP, Networking}{\ghrepo{MirrorShare}}
+  \item Built a native Windows AirPlay receiver as a high-performance alternative to UXPlay using modern C++20 and Qt6 for zero-lag screen mirroring and audio streaming.
+  \item Implemented multi-threaded network packet handling, RTSP/RTP protocol decoding, and hardware-accelerated video rendering for stable low-latency playback.
 \end{resumeEntry}
 
 \begin{resumeEntry}
   {BCA Attendance Tracker}{}
-  {TypeScript, React (Vite), Node.js, Express, MongoDB}{\ghrepo{bca-attendance-tracker}}
-  \item Built a full-stack attendance tracking app with a TypeScript React frontend and a Node/Express + Mongoose backend.
-  \item Enabled taking attendance, viewing student history, and exporting records to CSV.
+  {TypeScript, React, Vite, Node.js, Express, MongoDB}{\ghrepo{bca-attendance-tracker}}
+  \item Built a full-stack attendance management platform with TypeScript React (Vite) and Node/Express, streamlining daily record keeping for faculty.
+  \item Designed RESTful API endpoints with MongoDB/Mongoose for student analytics, attendance percentage calculation, and automated CSV export generation.
 \end{resumeEntry}
 
 \section*{Certifications}
 \begin{resumeEntry}
   {Skill Advancement cum Project Mentorship Program}{May 2026}
   {Indian Institute of Information Technology (IIIT) Kottayam}{Certificate ID: IIITK/SAPM-SBC/2026/ECERT/068}
-  \item Completed a summer internship program (04 May 2026 -- 31 May 2026) focused on machine learning, under the mentorship of Dr. Sivaiah Bellamkonda.
-  \item Program coordinated by Dr. Lavanya Settipalli and Dr. Sivaiah Bellamkonda; certified by Dr. Radhakrishnan M, Registrar, IIIT Kottayam.
+  \item Completed intensive machine learning mentorship under Dr. Sivaiah Bellamkonda, focusing on computer vision and practical ML deployments.
+  \item Awarded certificate of completion certified by Dr. Radhakrishnan M, Registrar, IIIT Kottayam.
 \end{resumeEntry}
 
 \section*{Skills}
 \begin{itemize}
-    \item \textbf{Frontend:} HTML5, CSS3, JavaScript, React
-    \item \textbf{Programming:} Core Java, Python
-    \item \textbf{Backend/DB:} Node.js, Express, MongoDB
-    \item \textbf{Computer Science:} Data Structures (Basics), Operating Systems (Basics), DBMS (Basics), Machine Learning (Basics)
-    \item \textbf{Tools:} Git, GitHub, VS Code
+    \item \textbf{Languages:} C++ (C++20), Python, TypeScript, JavaScript, Core Java, HTML5, CSS3, SQL
+    \item \textbf{Frameworks \& Web:} React, Vite, Node.js, Express, FastAPI, Qt6, RESTful APIs, WebRTC
+    \item \textbf{Machine Learning \& CV:} PyTorch, Computer Vision, EfficientNetV2, CNNs, FER2013, OpenCV
+    \item \textbf{Tools \& Platforms:} Git, GitHub, MongoDB (Mongoose), Linux, CMake, VS Code, Postman
 \end{itemize}
 
 \end{document}

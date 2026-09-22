@@ -12,13 +12,18 @@ if command -v latexmk >/dev/null 2>&1; then
 elif command -v pdflatex >/dev/null 2>&1; then
     pdflatex -interaction=nonstopmode "$SOURCE"
     pdflatex -interaction=nonstopmode "$SOURCE"
+elif command -v tectonic >/dev/null 2>&1; then
+    tectonic "$SOURCE"
 else
-    echo "Error: Neither pdflatex nor latexmk was found in PATH." >&2
+    echo "Error: Neither pdflatex, latexmk, nor tectonic was found in PATH." >&2
     exit 1
 fi
 
 if [ -f "$TARGET" ]; then
     cp "$TARGET" "$FINAL"
+    if [ "$TARGET" != "$FINAL" ]; then
+        rm -f "$TARGET"
+    fi
 fi
 
 # Clean auxiliary files if latexmk is available
