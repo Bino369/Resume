@@ -43,6 +43,21 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 
 ---
 
+## 🧩 LaTeX Macro Reference
+
+### `\resumeEntry` Macro
+Encapsulates section items with standard spacing and bullet alignment:
+```latex
+\begin{resumeEntry}
+  {Title / Role}{Date Range}
+  {Organization / Subtitle}{Location / Key Info}
+  \item Bullet point 1
+  \item Bullet point 2
+\end{resumeEntry}
+```
+
+---
+
 ## 🎨 Color Palette & Styling
 
 The template features a restrained 2-color palette:
