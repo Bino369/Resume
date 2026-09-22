@@ -63,6 +63,11 @@ Generates formatted, clickable GitHub project links:
 \newcommand{\ghrepo}[1]{\href{https://github.com/\ghuser/#1}{github.com/\ghuser/#1}}
 ```
 
+### Adding a New Project Entry
+1. Copy a `\begin{resumeEntry} ... \end{resumeEntry}` block inside `\section*{Projects}`.
+2. Set project name, technologies used, and GitHub repository slug.
+3. Write 2 outcome-focused bullet points using the `Built X using Y to achieve Z` pattern.
+
 ---
 
 ## 🎨 Color Palette & Styling
