@@ -84,6 +84,15 @@ The template features a restrained 2-color palette:
 
 ---
 
+## 📐 Margins & Geometry
+
+The template utilizes custom geometry to maximize printable area while preserving clean white space:
+```latex
+\usepackage[margin=0.5in,top=0.4in,bottom=0.4in]{geometry}
+```
+
+---
+
 ## 📁 Repository Structure
 
 ```text
