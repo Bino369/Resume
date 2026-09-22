@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+
 set -e
 
 SOURCE="Binoy_Anil_Resume.tex"
