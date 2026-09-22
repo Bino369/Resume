@@ -49,6 +49,15 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 
 ---
 
+## ⚙️ Prerequisites
+
+To compile the LaTeX source locally, ensure you have one of the following engines installed:
+- **Tectonic** (recommended: zero configuration, automatically fetches missing packages)
+- **TeX Live / MacTeX** (provides `pdflatex` or `latexmk`)
+- **MiKTeX** (on Windows)
+
+---
+
 ## 🛠️ Compilation Instructions
 
 ### Automated Script
