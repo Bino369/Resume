@@ -74,7 +74,7 @@ sudo pacman -S texlive-basic texlive-latexextra
 To compile the LaTeX source locally, ensure you have one of the following engines installed:
 - **Tectonic** (recommended: zero configuration, automatically fetches missing packages)
 - **TeX Live / MacTeX** (provides `pdflatex` or `latexmk`)
-- **MiKTeX** (on Windows)
+- **MiKTeX** (on Windows: download from [miktex.org](https://miktex.org/) or install via `winget install tectonic`)
 
 ---
 
