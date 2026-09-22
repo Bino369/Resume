@@ -70,11 +70,12 @@ To build in one command, simply run:
 The script automatically detects your available LaTeX compiler and copies the output to `resume.pdf`.
 
 ### Manual Compilation
-Using `tectonic` (self-contained modern LaTeX engine):
+Using `tectonic` (self-contained modern LaTeX engine with on-demand package downloading):
 
 ```bash
 tectonic Binoy_Anil_Resume.tex
 ```
+> **Tip:** Tectonic downloads required fonts and packages on first run and caches them locally.
 
 Using `latexmk`:
 
