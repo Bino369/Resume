@@ -182,6 +182,15 @@ pdflatex -interaction=nonstopmode Binoy_Anil_Resume.tex
 
 ---
 
+## 🖨️ Paper Size Configuration
+
+By default, the document compiles to `a4paper`. For US applications requiring Letter size, change line 1 of `Binoy_Anil_Resume.tex`:
+```latex
+\documentclass[10pt,letterpaper]{article}
+```
+
+---
+
 ## ✅ Pre-Submission Checklist
 
 - [ ] Clean build with no LaTeX warnings (`./compile.sh`)
