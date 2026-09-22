@@ -182,5 +182,14 @@ pdflatex -interaction=nonstopmode Binoy_Anil_Resume.tex
 
 ---
 
+## ✅ Pre-Submission Checklist
+
+- [ ] Clean build with no LaTeX warnings (`./compile.sh`)
+- [ ] Strictly 1-page layout confirmed (`mdls -name kMDItemNumberOfPages resume.pdf`)
+- [ ] All external URLs and GitHub repos tested and active
+- [ ] Contact details and phone/email accurate
+
+---
+
 ## 📄 License
 Source code is available under the [MIT License](LICENSE) (or open for personal adaptation).
