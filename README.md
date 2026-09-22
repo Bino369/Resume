@@ -218,6 +218,13 @@ A: Modify `\definecolor{accent}{HTML}{1a4fa0}` with any desired HEX code.
 
 ---
 
+## 📜 Changelog
+
+- **v2.0**: Added 4 featured projects, upgraded summary to Software Engineer profile, restructured skills, added multi-compiler support in `compile.sh`.
+- **v1.0**: Initial single-page ATS-friendly LaTeX resume template.
+
+---
+
 ## 🤝 Contributing
 
 Contributions and improvements are welcome! Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for workflow details and code style guidelines.
