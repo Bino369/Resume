@@ -66,6 +66,9 @@ Generates formatted, clickable GitHub project links:
 ### Customizing Education & Certifications
 Update institution names, dates, degree titles, and certificate verification IDs. Keep descriptions concise to maintain vertical balance.
 
+### Tailoring Skills Section
+Group technical skills into clear categories (Languages, Frameworks & Web, Machine Learning & CV, Tools & Platforms). Tailor keywords directly to match role requirements.
+
 ### Adding a New Project Entry
 1. Copy a `\begin{resumeEntry} ... \end{resumeEntry}` block inside `\section*{Projects}`.
 2. Set project name, technologies used, and GitHub repository slug.
