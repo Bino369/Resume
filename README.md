@@ -52,9 +52,13 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 ## ⚙️ Prerequisites
 
 ### macOS Installation
-Install tectonic via Homebrew for a fast, lightweight compiler without needing multi-gigabyte MacTeX:
 ```bash
 brew install tectonic
+```
+
+### Ubuntu / Debian Installation
+```bash
+sudo apt-get update && sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended
 ```
 
 
