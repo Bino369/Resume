@@ -60,13 +60,14 @@ To compile the LaTeX source locally, ensure you have one of the following engine
 
 ## 🛠️ Compilation Instructions
 
-### Automated Script
-Run the included build script to compile and update `resume.pdf`:
+### ⚡ Quick Start
+To build in one command, simply run:
 
 ```bash
-chmod +x compile.sh
 ./compile.sh
 ```
+
+The script automatically detects your available LaTeX compiler and copies the output to `resume.pdf`.
 
 ### Manual Compilation
 Using `tectonic` (self-contained modern LaTeX engine):
