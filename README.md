@@ -191,6 +191,16 @@ By default, the document compiles to `a4paper`. For US applications requiring Le
 
 ---
 
+## 💡 Frequently Asked Questions
+
+**Q: Can I use different fonts?**  
+A: Yes! You can include packages like `\usepackage{inter}` or `\usepackage{lmodern}` in the preamble.
+
+**Q: How do I change the accent color?**  
+A: Modify `\definecolor{accent}{HTML}{1a4fa0}` with any desired HEX code.
+
+---
+
 ## ❓ Troubleshooting
 
 - **Command not found**: Install tectonic via `brew install tectonic` or `winget install tectonic`.
