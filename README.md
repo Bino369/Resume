@@ -191,6 +191,14 @@ By default, the document compiles to `a4paper`. For US applications requiring Le
 
 ---
 
+## ❓ Troubleshooting
+
+- **Command not found**: Install tectonic via `brew install tectonic` or `winget install tectonic`.
+- **Missing fonts**: Install `texlive-fonts-recommended` on Linux distributions.
+- **Underfull hbox**: Avoid bare line breaks `\\` without trailing content.
+
+---
+
 ## ✅ Pre-Submission Checklist
 
 - [ ] Clean build with no LaTeX warnings (`./compile.sh`)
