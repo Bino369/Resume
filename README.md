@@ -61,6 +61,15 @@ brew install tectonic
 sudo apt-get update && sudo apt-get install -y texlive-latex-extra texlive-fonts-recommended
 ```
 
+### Fedora & Arch Linux
+```bash
+# Fedora
+sudo dnf install texlive-scheme-basic
+
+# Arch Linux
+sudo pacman -S texlive-basic texlive-latexextra
+```
+
 
 To compile the LaTeX source locally, ensure you have one of the following engines installed:
 - **Tectonic** (recommended: zero configuration, automatically fetches missing packages)
