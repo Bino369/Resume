@@ -231,5 +231,12 @@ Contributions and improvements are welcome! Please check out [CONTRIBUTING.md](C
 
 ---
 
+## 🙏 Acknowledgments
+
+- Typeset with [LaTeX](https://www.latex-project.org/) and [Tectonic](https://tectonic-typesetting.github.io/).
+- Built for high clarity, clean typography, and seamless ATS parsing.
+
+---
+
 ## 📄 License
 Source code is available under the [MIT License](LICENSE) (or open for personal adaptation).
