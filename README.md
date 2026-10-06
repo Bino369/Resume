@@ -90,9 +90,9 @@ Group technical skills into clear categories (Languages, Frameworks & Web, Machi
 
 ## 🎨 Color Palette & Styling
 
-The template features a restrained 2-color palette:
-- `accent` (`#1a4fa0`): Professional deep blue for section headings and hyperlinks.
-- `darkgray` (`#333333`): Charcoal tone for high-contrast header typography.
+The template features a clean, professional monochrome palette:
+- `accent` (`#000000`): Pure black for section headings, horizontal divider lines, and hyperlinks.
+- `darkgray` (`#000000`): Pure black for name and title typography.
 
 ---
 
