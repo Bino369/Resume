@@ -19,9 +19,9 @@
 
 \hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
 
-\newcommand{\resumeSubheading}[4]{
-  \textbf{#1}\ifx&#2&\else\hfill #2\fi \\
-  \textit{#3}\ifx&#4&\else\hfill \textit{#4}\fi \\[1.5pt]
+\newcommand{\resumeSubheading}[4]{%
+  \textbf{#1}\hfill #2\par
+  \textit{#3}\hfill \textit{#4}\par\vspace{1.5pt}%
 }
 
 \newenvironment{resumeEntry}[4]{
@@ -37,16 +37,17 @@
 \begin{document}
 
 \begin{center}
-    {\huge\textbf{\color{darkgray}BINOY ANIL}} \\[2pt]
-    {\large\color{accent}Software Engineer \quad $\vert$ \quad Full-Stack, ML \& Systems} \\[3pt]
+    {\huge\textbf{\color{darkgray}BINOY ANIL}} \\[3pt]
     \small
-    \href{https://linkedin.com/in/binoy-anil-641474230}{linkedin.com/in/binoy-anil-641474230} \quad $\vert$ \quad
+    \href{mailto:binoyanil85@gmail.com}{binoyanil85@gmail.com} \quad $\vert$ \quad
+    \href{tel:+917306745406}{+91 7306745406} \quad $\vert$ \quad
+    \href{https://binofolio.vercel.app}{binofolio.vercel.app} \\[2pt]
     \href{https://github.com/bino369}{github.com/bino369} \quad $\vert$ \quad
-    \href{https://binofolio.vercel.app}{binofolio.vercel.app}
+    \href{https://linkedin.com/in/binoy-anil-641474230}{linkedin.com/in/binoy-anil-641474230}
 \end{center}
 
 \section*{Summary}
-Versatile Software Engineer with hands-on expertise spanning full-stack web development, machine learning, and systems programming. Proven track record of building production-grade software---from deep learning computer vision pipelines and real-time AirPlay media receivers to scalable full-stack web platforms. Passionate about engineering high-performance systems and solving complex technical challenges.
+Versatile Software Engineer with hands-on expertise spanning full-stack web development, machine learning, and systems programming. Proven track record of building production-grade software---from deep learning computer vision pipelines and predictive machine learning models to scalable full-stack web platforms. Passionate about engineering high-performance systems and solving complex technical challenges.
 
 \section*{Education}
 \begin{resumeEntry}
@@ -63,20 +64,15 @@ Versatile Software Engineer with hands-on expertise spanning full-stack web deve
   {PyTorch, EfficientNetV2, FastAPI, React}{\ghrepo{EcoIdentify-AI}}
   \item Built an end-to-end waste classification web application using PyTorch and EfficientNetV2, achieving high multi-class inference accuracy.
   \item Implemented real-time image preprocessing and inference pipeline with FastAPI backend and responsive React frontend for live webcam classification.
+  \item Evaluated model performance across diverse waste categories with data augmentation to enhance generalization under varied lighting conditions.
 \end{resumeEntry}
 
 \begin{resumeEntry}
-  {Live-Emotion-Detection}{}
-  {Python, CNN, FER2013, FastAPI, React}{\ghrepo{Live-Emotion-Detection}}
-  \item Developed a real-time facial emotion recognition system using a CNN trained on the FER2013 dataset, achieving low-latency affect classification.
-  \item Engineered a lightweight FastAPI streaming API integrated with a React UI for 30+ FPS live webcam feed analysis and instant sentiment visualization.
-\end{resumeEntry}
-
-\begin{resumeEntry}
-  {MirrorShare}{}
-  {C++20, Qt6, RTSP/RTP, Networking}{\ghrepo{MirrorShare}}
-  \item Built a native Windows AirPlay receiver as a high-performance alternative to UXPlay using modern C++20 and Qt6 for zero-lag screen mirroring and audio streaming.
-  \item Implemented multi-threaded network packet handling, RTSP/RTP protocol decoding, and hardware-accelerated video rendering for stable low-latency playback.
+  {Disease-predicts-using-ml}{}
+  {Python, Scikit-learn, Random Forest, SVM, Tkinter}{\ghrepo{Disease-predicts-using-ml}}
+  \item Developed a multi-model diagnostic prediction system analyzing symptom profiles using Decision Tree, Random Forest, and SVM algorithms to maximize classification accuracy.
+  \item Engineered automated data preprocessing and feature scaling pipelines with scikit-learn, handling high-dimensional symptom datasets and multi-class target encoding.
+  \item Built an interactive Tkinter desktop GUI for instant condition diagnosis, confidence metrics, and targeted treatment recommendations.
 \end{resumeEntry}
 
 \begin{resumeEntry}
@@ -84,6 +80,7 @@ Versatile Software Engineer with hands-on expertise spanning full-stack web deve
   {TypeScript, React, Vite, Node.js, Express, MongoDB}{\ghrepo{bca-attendance-tracker}}
   \item Built a full-stack attendance management platform with TypeScript React (Vite) and Node/Express, streamlining daily record keeping for faculty.
   \item Designed RESTful API endpoints with MongoDB/Mongoose for student analytics, attendance percentage calculation, and automated CSV export generation.
+  \item Implemented responsive state-driven dashboards with robust input validation and error handling for faculty user workflows.
 \end{resumeEntry}
 
 \section*{Certifications}
@@ -96,10 +93,11 @@ Versatile Software Engineer with hands-on expertise spanning full-stack web deve
 
 \section*{Skills}
 \begin{itemize}
-    \item \textbf{Languages:} C++ (C++20), Python, TypeScript, JavaScript, Core Java, HTML5, CSS3, SQL
+    \item \textbf{Programming Languages:} C++ (C++20), Python, TypeScript, JavaScript, Core Java, HTML5, CSS3, SQL
     \item \textbf{Frameworks \& Web:} React, Vite, Node.js, Express, FastAPI, Qt6, RESTful APIs, WebRTC
-    \item \textbf{Machine Learning \& CV:} PyTorch, Computer Vision, EfficientNetV2, CNNs, FER2013, OpenCV
+    \item \textbf{Machine Learning \& CV:} PyTorch, Scikit-learn, Computer Vision, EfficientNetV2, CNNs, OpenCV, Pandas
     \item \textbf{Tools \& Platforms:} Git, GitHub, MongoDB (Mongoose), Linux, CMake, VS Code, Postman
+    \item \textbf{Communication Languages:} English, Malayalam, Tamil
 \end{itemize}
 
 \end{document}

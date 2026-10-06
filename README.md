@@ -30,7 +30,8 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 
 | Detail | Information |
 |---|---|
-| **Candidate** | Binoy Anil (Software Engineer \| Full-Stack, ML & Systems) |
+| **Candidate** | Binoy Anil |
+| **Phone** | [+91 7306745406](tel:+917306745406) |
 | **Email** | [binoyanil85@gmail.com](mailto:binoyanil85@gmail.com) |
 | **Portfolio** | [binofolio.vercel.app](https://binofolio.vercel.app) |
 | **LinkedIn** | [linkedin.com/in/binoy-anil-641474230](https://linkedin.com/in/binoy-anil-641474230) |
@@ -43,14 +44,12 @@ This repository contains the single-page, ATS-friendly LaTeX template and compil
 | Project | Tech Stack | Domain |
 |---|---|---|
 | **EcoIdentify-AI** | PyTorch, EfficientNetV2, FastAPI, React | Computer Vision & ML |
-| **Live-Emotion-Detection** | CNN, FER2013, FastAPI, React | Deep Learning & Affective Computing |
-| **MirrorShare** | C++20, Qt6, RTSP/RTP, Networking | Systems & Media Streaming |
+| **Disease-predicts-using-ml** | Python, Scikit-learn, Random Forest, SVM, Tkinter | Machine Learning & Healthcare |
 | **BCA Attendance Tracker** | TypeScript, React, Node.js, MongoDB | Full-Stack Web |
 
 
 - **[EcoIdentify-AI](https://github.com/Bino369/EcoIdentify-AI)** – Real-time waste classification web app using PyTorch, EfficientNetV2, and Computer Vision.
-- **[Live-Emotion-Detection](https://github.com/Bino369/Live-Emotion-Detection)** – Real-time facial emotion recognition using a CNN trained on FER2013, FastAPI backend, and React frontend.
-- **[MirrorShare](https://github.com/Bino369/MirrorShare)** – Native Windows AirPlay receiver for screen mirroring and audio streaming built with C++20 and Qt6.
+- **[Disease-predicts-using-ml](https://github.com/Bino369/Disease-predicts-using-ml)** – Multi-model disease prediction system analyzing symptom profiles using Decision Trees, Random Forests, and SVMs with a Tkinter GUI.
 - **[BCA Attendance Tracker](https://github.com/Bino369/bca-attendance-tracker)** – Full-stack attendance tracking platform built with TypeScript React/Vite, Node/Express, and MongoDB.
 
 ---
