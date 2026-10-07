@@ -8,7 +8,7 @@ Thank you for your interest in improving this LaTeX Resume repository!
    - Fork this repository on GitHub.
    - Clone your fork locally:
      ```bash
-     git clone https://github.com/<your-username>/Resume.git
+     git clone https://github.com/bino369/Resume.git
      cd Resume
      ```
 
